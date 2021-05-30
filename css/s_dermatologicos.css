@@ -91,7 +91,8 @@ h1.site-title{
     display: flex;
     width: 40vw;
     margin-top: 60px;
-    margin-left: 90px;
+    margin-left: 70px;
+    margin-right: 40px;
     max-width: 500px;
     min-height: 370px;
     max-height: 70vh;
@@ -143,17 +144,18 @@ section.como_lidar .profile{
     position: relative;
     display: flex;
     width: 350px;
-    height: 300px;
+    height: 320px;
     float: right;
     clip-path: polygon(0% 0%, 80% 0%, 100% 50%, 80% 100%, 0% 100%);  
     margin-left: 30px;
 }
 
-section.como_identificar .profile{
+section.como_identificar .profile,
+section.dicas .profile{
     position: relative;
     display: flex;
     width: 350px;
-    height: 300px;
+    height: 320px;
     float: left;
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);    
     margin-right: 30px;
