@@ -71,6 +71,23 @@ section.contatos{
     min-height: 70vh;
 }
 
+section.dados_universitarios h2,
+section.doencas h2,
+section.pensador h2{
+    color: #f8f8f8;
+    font-size: 2.2em;
+    margin-bottom: 1.2em;
+    font-weight: bold;
+}
+
+section.quiz h2,
+section.contatos h2{
+    color: #03989e;
+    font-size: 2.2em;
+    margin-bottom: 1.2em;
+    font-weight: bold;
+}
+
 .box_pensador{
     background-color: transparent;
     margin: 0 6.7vw 0;
