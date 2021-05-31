@@ -1,0 +1,201 @@
+
+.caixa{
+    background: #03989e;
+    position: fixed;
+    width: 100vw;
+    margin: 0 auto;
+    padding-left: 70px;
+    z-index: 1;
+}
+
+nav ul{
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 120px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+nav a{
+    color: #f8f8f8;
+    font-family: 'Quattrocento', serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 800ms, color 800ms;
+}
+
+nav a:hover{
+    background-color:#055255;
+    color: #f8f8f8;
+    text-decoration: none;
+
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 25px;
+    letter-spacing: .5px;
+}
+
+.abertura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.titulos{
+    background-color: transparent;
+    margin: 150px 6.7vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5vw;
+}
+
+h2.site-subtitle{
+    color: #f8f8f8;
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #055255;
+    border-radius: 91.5px;
+    border: none;
+    letter-spacing: .1rem;
+    height: 40px;
+    padding-top: 20px;
+}
+
+h1.site-title{
+    color: #055255;
+    text-align: center;
+    font-size: 5em;
+    line-height: 1em;
+}
+
+.icon{
+    background-color: transparent;
+    display: flex;
+    width: 40vw;
+    margin-top: 60px;
+    margin-left: 50px;
+    max-width: 500px;
+    min-height: 370px;
+    max-height: 70vh;
+}
+
+section.o_que, 
+section.como_lidar{
+    background-color: #03989e;
+    color: #f8f8f8;
+    padding: 8.6em 3.6em 3.6em 3.6em;
+    min-height: 70vh;
+}
+
+section.como_identificar, 
+section.dicas{
+    background-color: #f8f8f8;
+    color: #03989e;
+    padding: 8.6em 3.6em 7.9em 3.6em;    
+    min-height: 70vh;
+}
+
+section.o_que h2, 
+section.como_lidar h2{
+    color: #f8f8f8;
+    font-size: 2.2em;
+    margin-bottom: 1.2em;
+    font-weight: bold;
+}
+
+section.como_identificar h2, 
+section.dicas h2{
+    color: #03989e;
+    font-size: 2.2em;
+    margin-bottom: 1.2em;
+    font-weight: bold;
+}
+
+section.o_que p,
+section.como_identificar p,
+section.como_lidar p{
+    text-indent: 1.4em;
+    margin-bottom: 1.4em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+section.o_que .profile,
+section.como_lidar .profile{
+    position: relative;
+    display: flex;
+    width: 350px;
+    height: 300px;
+    float: right;
+    clip-path: polygon(0% 0%, 80% 0%, 100% 50%, 80% 100%, 0% 100%);  
+    margin-left: 30px;
+}
+
+section.como_identificar .profile{
+    position: relative;
+    display: flex;
+    width: 350px;
+    height: 300px;
+    float: left;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);    
+    margin-right: 50px;
+}
+
+.como_lidar_dicas {
+    list-style-type: circle;
+}
+
+.como_lidar_dicas a{
+    text-decoration: none;
+    color:#f8f8f8;
+}
+
+.como_lidar_dicas a:hover{
+    color: #055255;
+}
+
+.como_lidar_dicas a:active {
+    color:#055255;
+}
+
+footer{
+    background-color: #03989e;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .pe{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    color: #f8f8f8;
+  }
+
+  .pe a{
+    color: #f8f8f8;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: 500;
+  }
