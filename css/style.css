@@ -6,8 +6,7 @@ header{
 .caixa{
     position: relative;
     width: 1130px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 nav ul{
@@ -38,7 +37,6 @@ nav a:hover{
     background-color: teal;
     color: whitesmoke;
     text-decoration: none;
-
     border-radius: 20px;
     text-align: center;
     padding: 5px 25px;
@@ -48,3 +46,105 @@ nav a:hover{
 main{
     background-color: #f5f5ef;
 }
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+section.dados_universitarios,
+section.doencas,
+section.pensador{
+    background-color: #03989e;
+    color: #f8f8f8;
+    padding: 8.6em 3.6em 3.6em 3.6em;
+    min-height: 70vh;
+}
+
+section.quiz,
+section.contatos{
+    background-color: #f8f8f8;
+    color: #03989e;
+    padding: 8.6em 3.6em 7.9em 3.6em;    
+    min-height: 70vh;
+}
+
+.box_pensador{
+    background-color: transparent;
+    margin: 0 6.7vw 0;
+    margin-bottom: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+}
+
+h1.pensador-title{
+    color: #f8f8f8;
+    text-align: center;
+    font-size: 8em;
+    line-height: 1em;
+}
+
+a.pensador-subtitle{
+    text-decoration: none;
+    color: #f8f8f8;
+    margin-top: 20px;
+    font-size: 1.4em;
+    text-align: center;
+    background-color: #055255;
+    border-radius: 91.5px;
+    border: none;
+    letter-spacing: .1rem;
+    height: 40px;
+    padding-top: 15px;
+    transition: background-color 800ms, color 800ms;
+}
+
+a.pensador-subtitle:hover{
+    background-color:#032b2c;
+    text-decoration: none;
+}
+
+.icon{
+    background-color: transparent;
+    display: flex;
+    width: 40vw;
+    margin-top: 60px;
+    margin-left: 90px;
+    max-width: 500px;
+    min-height: 370px;
+    max-height: 70vh;
+}
+
+footer{
+    background-color: #f8f8f8;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .pe{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    color: #03989e;
+  }
+
+  .pe a{
+    color: #03989e;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: 500;
+  }
