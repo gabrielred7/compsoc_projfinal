@@ -186,6 +186,32 @@ a.linker:hover{
     color: #055255;
 }
 
+ul.sintomas{
+    list-style: circle;
+    text-indent: 1.4em;
+    margin-left: 22em;
+    margin-bottom: 1.4em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+ul.sintomas li{
+    margin-bottom: 0.1em;
+}
+
+ul.como_lidar_dicas{
+    list-style: circle;
+    text-indent: 1.4em;
+    margin-left: 2em;
+    margin-bottom: 1.4em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+ul.como_lidar_dicas li{
+    margin-bottom: 0.1em;
+}
+
 footer{
     background-color: #03989e;
     width: 100%;

@@ -160,10 +160,6 @@ section.como_identificar .profile{
     margin-right: 50px;
 }
 
-.como_lidar_dicas {
-    list-style-type: circle;
-}
-
 .como_lidar_dicas a{
     text-decoration: none;
     color:#f8f8f8;
@@ -175,6 +171,28 @@ section.como_identificar .profile{
 
 .como_lidar_dicas a:active {
     color:#055255;
+}
+
+ul.como_identificar_dicas{
+    list-style: circle;
+    text-indent: 1.4em;
+    margin-left: 23em;
+    margin-bottom: 1.4em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+ul.como_lidar_dicas{
+    list-style: circle;
+    text-indent: 1.4em;
+    margin-left: 2em;
+    margin-bottom: 1.4em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+ul.como_lidar_dicas li{
+    margin-bottom: 0.1em;
 }
 
 footer{

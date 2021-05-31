@@ -1,12 +1,11 @@
 
-header{
-    background: #03989e;
-}
-
 .caixa{
-    position: relative;
-    width: 1130px;
-    margin: 0 auto; 
+    background: #03989e;
+    position: fixed;
+    width: 100vw;
+    margin: 0 auto;
+    padding-left: 70px;
+    z-index: 1;
 }
 
 nav ul{
@@ -16,12 +15,13 @@ nav ul{
     display: flex;
     justify-content: space-around;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 120px;
 }
 
 nav li{
+    list-style: none;
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 30px;
 }
 
 nav a{
@@ -86,6 +86,30 @@ section.contatos h2{
     font-size: 2.2em;
     margin-bottom: 1.2em;
     font-weight: bold;
+}
+
+.box_doencas{
+    background-color: transparent;
+    margin: 10px 2.7vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col1_doencas_psico{
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+}
+
+.col2_doencas_saude{
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
 }
 
 .box_pensador{
