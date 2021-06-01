@@ -141,7 +141,10 @@ section.contatos p{
     font-size: 1.2em;
 }
 
-.box_dados{
+.box_dados,
+.box_quiz,
+.box_doencas,
+.box_contatos{
     background-color: transparent;
     margin: 10px 0 0;
     display: flex;
@@ -169,14 +172,6 @@ section.contatos p{
 
 img.grafico{
     border-radius: 20px;
-}
-
-.box_quiz{
-    background-color: transparent;
-    margin: 10px 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .col1_quiz{
@@ -218,29 +213,14 @@ a.quiz-linker:hover{
     text-decoration: none;
 }
 
-.box_doencas{
-    background-color: transparent;
-    margin: 10px 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.col1_doencas_psico{
+.col1_doencas_psico,
+.col2_doencas_saude{
     background-color: transparent ;
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-right: 10vw;
-    min-width: 30vw;
-}
-
-.col2_doencas_saude{
-    background-color: transparent;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
     min-width: 30vw;
 }
 
@@ -253,7 +233,8 @@ a.quiz-linker:hover{
 }
 
 ul.lista_doencas_psico,
-ul.lista_doencas_saude{
+ul.lista_doencas_saude,
+ul.lista_psicologos{
     list-style: circle;
     text-indent: 1.1em;
     margin-left: 2em;
@@ -262,21 +243,44 @@ ul.lista_doencas_saude{
 }
 
 ul.lista_doencas_psico li,
-ul.lista_doencas_saude li{
-    margin-bottom: 0.3em; 
+ul.lista_doencas_saude li,
+ul.lista_psicologos li{
+    margin-bottom: 0.5em; 
 }
 
 ul.lista_doencas_psico li a,
-ul.lista_doencas_saude li a{
+ul.lista_doencas_saude li a,
+ul.lista_psicologos li a{
     text-decoration: none;
     color: #03989e;
     transition: background-color 800ms, color 800ms;
 }
 
 ul.lista_doencas_psico li a:hover,
-ul.lista_doencas_saude li a:hover{
+ul.lista_doencas_saude li a:hover,
+ul.lista_psicologos li a:hover{
     text-decoration: none;
     color: #033638;
+}
+
+.col_mapa{
+    background-color: transparent ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5vw;
+    max-width: 45vw;
+}
+
+.col_links{
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 20vw;
+    max-width: 45vw;
 }
 
 .box_pensador{
@@ -326,8 +330,6 @@ a.pensador-subtitle:hover{
 .mapa{
     margin-bottom: 1.4em;
 }
-
-
 
 .icon{
     background-color: transparent;
