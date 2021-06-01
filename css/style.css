@@ -167,6 +167,10 @@ section.contatos p{
     margin-bottom: 30px;
 }
 
+img.grafico{
+    border-radius: 20px;
+}
+
 .box_quiz{
     background-color: transparent;
     margin: 10px 0 0;
@@ -248,29 +252,7 @@ a.quiz-linker:hover{
     padding: 30px;
 }
 
-ul.lista_doencas_psico{
-    list-style: circle;
-    text-indent: 1.1em;
-    margin-left: 2em;
-    text-align: justify;
-    font-size: 1.3em;
-}
-
-ul.lista_doencas_psico li{
-    margin-bottom: 0.3em; 
-}
-
-ul.lista_doencas_psico li a{
-    text-decoration: none;
-    color: #03989e;
-    transition: background-color 800ms, color 800ms;
-}
-
-ul.lista_doencas_psico li a:hover{
-    text-decoration: none;
-    color: #033638;
-}
-
+ul.lista_doencas_psico,
 ul.lista_doencas_saude{
     list-style: circle;
     text-indent: 1.1em;
@@ -279,16 +261,19 @@ ul.lista_doencas_saude{
     font-size: 1.3em;
 }
 
+ul.lista_doencas_psico li,
 ul.lista_doencas_saude li{
-    margin-bottom: 0.3em;
+    margin-bottom: 0.3em; 
 }
 
+ul.lista_doencas_psico li a,
 ul.lista_doencas_saude li a{
     text-decoration: none;
     color: #03989e;
     transition: background-color 800ms, color 800ms;
 }
 
+ul.lista_doencas_psico li a:hover,
 ul.lista_doencas_saude li a:hover{
     text-decoration: none;
     color: #033638;
@@ -337,6 +322,12 @@ a.pensador-subtitle:hover{
     background-color:#022828;
     text-decoration: none;
 }
+
+.mapa{
+    margin-bottom: 1.4em;
+}
+
+
 
 .icon{
     background-color: transparent;
