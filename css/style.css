@@ -129,8 +129,8 @@ section.contatos p{
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-left: 7vw;
-    min-width: 20vw;
+    margin-left: 5vw;
+    max-width: 45vw;
 }
 
 .col2_apresentacao p{
@@ -139,6 +139,32 @@ section.contatos p{
     margin-bottom: 1.4em;
     text-align: justify;
     font-size: 1.2em;
+}
+
+.box_dados{
+    background-color: transparent;
+    margin: 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col1_dados{
+    background-color: transparent ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+    max-width: 40vw;
+}
+
+.col2_dados{
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    margin-bottom: 5vw;
 }
 
 .box_quiz{
