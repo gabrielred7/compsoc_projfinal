@@ -90,18 +90,19 @@ section.contatos h2{
 
 .box_doencas{
     background-color: transparent;
-    margin: 10px 2.7vw 0;
+    margin: 10px 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .col1_doencas_psico{
-    background-color: transparent;
+    background-color: transparent ;
     text-align: center;
     display: flex;
     flex-direction: column;
     margin-right: 10vw;
+    min-width: 30vw;
 }
 
 .col2_doencas_saude{
@@ -110,7 +111,52 @@ section.contatos h2{
     display: flex;
     flex-direction: column;
     margin-left: 10vw;
+    min-width: 30vw;
 }
+
+.conteudo{
+    background-color: #f8f8f8;
+    color: #03989e;
+    min-height: 120px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+ul.lista_doencas_psico{
+    list-style: circle;
+    text-indent: 1.1em;
+    margin-left: 2em;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+ul.lista_doencas_psico li{
+    margin-bottom: 0.3em;
+    
+}
+
+ul.lista_doencas_psico li a{
+    text-decoration: none;
+    color: #03989e;
+}
+
+ul.lista_doencas_saude{
+    list-style: circle;
+    text-indent: 1.1em;
+    margin-left: 2em;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+ul.lista_doencas_saude li{
+    margin-bottom: 0.3em;
+}
+
+ul.lista_doencas_saude li a{
+    text-decoration: none;
+    color: #03989e;
+}
+
 
 .box_pensador{
     background-color: transparent;
