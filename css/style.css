@@ -121,7 +121,7 @@ section.contatos p{
     display: flex;
     flex-direction: column;
     min-width: 30vw;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .col2_apresentacao{
@@ -164,7 +164,7 @@ section.contatos p{
     display: flex;
     flex-direction: column;
     max-width: 50vw;
-    margin-bottom: 5vw;
+    margin-bottom: 30px;
 }
 
 .box_quiz{
