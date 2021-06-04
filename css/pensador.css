@@ -173,24 +173,24 @@ ul.pilares li{
 }
 
 footer{
-    background-color: #03989e;
+    background-color: #f8f8f8;
     width: 100%;
     z-index: 1;
-  }
+}
 
-  .pe{
+.pe{
     display: flex;
     justify-content: space-around;
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
     font-weight: 500;
-    color: #f8f8f8;
-  }
+    color: #03989e;
+}
 
-  .pe a{
-    color: #f8f8f8;
+.pe a{
+    color: #03989e;
     font-size: 1em;
     text-decoration: none;
     font-weight: 500;
-  }
+}
