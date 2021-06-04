@@ -51,8 +51,7 @@ nav a:hover{
     min-height: 100vh;
 }
 
-section.dados_universitarios,
-section.pensador{
+section.dados_universitarios{
     background-color: #03989e;
     color: #f8f8f8;
     padding: 8.6em 3.6em 3.6em 3.6em;
@@ -66,7 +65,7 @@ section.doencas{
     min-height: 100vh;
 }
 
-section.quiz,
+section.pensador,
 section.contatos{
     background-color: #f8f8f8;
     color: #03989e;
@@ -75,15 +74,14 @@ section.contatos{
 }
 
 section.dados_universitarios h2,
-section.doencas h2,
-section.pensador h2{
+section.doencas h2{
     color: #f8f8f8;
     font-size: 2.2em;
     margin-bottom: 1.2em;
     font-weight: bold;
 }
 
-section.quiz h2,
+section.pensador h2,
 section.contatos h2{
     color: #03989e;
     font-size: 2.2em;
@@ -301,9 +299,9 @@ ul.lista_psicologos li a:hover{
 }
 
 h1.pensador-title{
-    color: #f8f8f8;
+    color: #03989e;
     text-align: center;
-    font-size: 8em;
+    font-size: 6em;
     line-height: 1em;
 }
 
@@ -335,7 +333,7 @@ a.pensador-subtitle:hover{
     background-color: transparent;
     display: flex;
     width: 40vw;
-    margin-top: 60px;
+    margin-top: 90px;
     margin-left: 90px;
     max-width: 500px;
     min-height: 370px;
@@ -343,7 +341,7 @@ a.pensador-subtitle:hover{
 }
 
 footer{
-    background-color: #f8f8f8;
+    background-color: #03989e;
     width: 100%;
     z-index: 1;
   }
@@ -355,11 +353,11 @@ footer{
     margin-left: 20px;
     margin-right: 20px;
     font-weight: 500;
-    color: #03989e;
+    color: #f8f8f8;
   }
 
   .pe a{
-    color: #03989e;
+    color: #f8f8f8;
     font-size: 1em;
     text-decoration: none;
     font-weight: 500;
