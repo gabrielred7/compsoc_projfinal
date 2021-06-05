@@ -69,21 +69,21 @@ nav a:hover{
 h2.site-subtitle{
     color: #f8f8f8;
     margin-top: 20px;
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-align: center;
     background-color: #055255;
     border-radius: 91.5px;
     border: none;
     letter-spacing: .1rem;
-    height: 40px;
+    height: 60px;
     padding-top: 15px;
 }
 
 h1.site-title{
     color: #055255;
     text-align: center;
-    font-size: 5em;
-    line-height: 1em;
+    font-size: 7em;
+    line-height: 1.5em;
 }
 
 .icon{
@@ -156,7 +156,11 @@ section.como_identificar .profile{
     height: 300px;
     float: left;
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);    
-    margin-right: 50px;
+    margin-right: 30px;
+}
+
+.como_lidar_dicas{
+    list-style-type: circle;
 }
 
 .como_lidar_dicas a{
@@ -172,13 +176,26 @@ section.como_identificar .profile{
     color:#055255;
 }
 
-ul.lista_como_lidar{
+a.linker{
+    text-decoration: none;
+    color:#f8f8f8;
+}
+
+a.linker:hover{
+    color: #055255;
+}
+
+ul.sintomas{
     list-style: circle;
     text-indent: 1.4em;
-    margin-left: 23em;
+    margin-left: 22em;
     margin-bottom: 1.4em;
     text-align: justify;
     font-size: 1.2em;
+}
+
+ul.sintomas li{
+    margin-bottom: 0.1em;
 }
 
 ul.como_lidar_dicas{
@@ -187,14 +204,10 @@ ul.como_lidar_dicas{
     margin-left: 2em;
     margin-bottom: 1.4em;
     text-align: justify;
-}
-
-ul.como_lidar_dicas a{
-    margin-top:2.2em;
     font-size: 1.2em;
 }
 
-ul.como_lidar_dicas li{
+ul.sistomas li{
     margin-bottom: 0.1em;
 }
 
@@ -206,12 +219,13 @@ footer{
 
 .pe{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
     font-weight: 500;
     color: #03989e;
+
 }
 
 .pe a{
